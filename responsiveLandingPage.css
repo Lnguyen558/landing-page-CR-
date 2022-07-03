@@ -192,7 +192,7 @@ section .imgBx img{
         display: none;
     }
 
-@media screen  and (max-width: 991px)
+@media screen  and (max-width: 771px)
 {
 .menuicon{
  position: fixed;
