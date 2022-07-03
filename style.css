@@ -1,0 +1,149 @@
+/* reset page to margin 0 and padding 0 */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+/* reset all image to 100% */
+img
+{
+ max-width: 100%;
+}
+
+ 
+/* start format of header sectio  */
+
+/* format the header section */
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/background.png);
+    background-size: cover;
+    color: #fff;
+    padding: 0 7%;
+    position: relative;
+}
+
+/* format nav  */
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 10px;
+}
+
+/* format logo */
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+/* format nav ul li  */
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+/* format nav ul a */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+}
+
+/* add hover effect on li */
+nav ul a:hover {
+    color: white;
+    padding: 1px 10px;
+    border-radius: 40px;
+    background: red;
+    color: rgb(238, 238, 20);
+  
+    /* border-top: 1px solid white;
+    border-bottom:3px solid white ; */
+}
+
+/* format text box div */
+.text-box{
+    margin-top: 16%;
+    font-size: 22px;
+
+}
+
+/* format text box h1 */
+.text-box h1{
+    font-size: 85px;
+    font-weight: 600;
+    line-height: 100px;
+    margin-bottom: 10px;
+   
+}
+
+/* format text box button */
+.text-box .btn{
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    margin-top: 30px;
+    background: red;
+    color: white;
+    padding: 14px 40px;
+    cursor: pointer;
+}
+
+/* format download the app  */
+.download{
+    position: absolute;
+    right: 7%;
+    bottom: 60px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 40px;
+    transition: background 0.3s;
+
+}
+
+/* add hover effect for the download a */
+.download:hover {
+    background: red;
+}
+
+
+/* format the download img */
+.download img{
+    width: 25px;
+    margin-left: 15px;
+
+    /* add animation on download img */
+    animation: move 3s linear infinite;
+
+}
+
+/* animation for the download icon */
+@keyframes move{
+    0%{
+        transform: translateY(-10px);
+    }
+
+    50%{
+        transform: translateY(10px);
+    }
+
+    100%{
+        transform: translateY(-10px);
+    }
+
+}
+/* end format for header section */
+
+
